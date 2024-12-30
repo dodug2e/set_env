@@ -34,3 +34,6 @@ pip install tensorflow
 echo "I installed tensorflow"
 
 echo "I will install numpy, pandas, matplotlib"
+pip3 install numpy
+pip3 install pandas
+pip3 install matplotlib
