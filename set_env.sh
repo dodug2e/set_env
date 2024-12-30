@@ -19,4 +19,6 @@ echo "I will install pip3"
 sudo apt-get install python3-pip
 echo "I installed pip3"
 
+echo "I will install git"
+
 echo "I will install tensorflow"
