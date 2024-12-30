@@ -32,3 +32,5 @@ sudo apt-get install python3-pip
 pip install --upgrade pip
 pip install tensorflow
 echo "I installed tensorflow"
+
+pip3 install numpy
