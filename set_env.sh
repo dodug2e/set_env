@@ -33,8 +33,11 @@ pip install --upgrade pip
 pip install tensorflow
 echo "I installed tensorflow"
 
-echo "I will install numpy, pandas, matplotlib"
+echo "I will install numpy, pandas, matplotlib, genesis, scikit-learn"
 pip3 install numpy
 pip3 install pandas
 pip3 install matplotlib
 pip3 install genesis-world 
+python3 -m venv sklearn-env
+source sklearn-env/bin/activate
+pip3 install -U scikit-learn
