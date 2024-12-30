@@ -19,6 +19,12 @@ echo "I will install pip3"
 sudo apt-get install python3-pip
 echo "I installed pip3"
 
-echo "I will install git"
+echo "I will install git&github-desktop"
+sudo apt-get install git
+sudo apt-get -y wget
+wget -qO - https://apt.packages.shiftkey.dev/gpg.key | gpg --dearmor | sudo tee /usr/share/keyrings/shiftkey-packages.gpg > /dev/null
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/shiftkey-packages.gpg] https://apt.packages.shiftkey.dev/ubuntu/ any main" > /etc/apt/sources.list.d/shiftkey-packages.list'
+sudo apt update && sudo apt install github-desktop
+echo "I installed git"
 
 echo "I will install tensorflow"
