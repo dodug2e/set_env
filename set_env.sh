@@ -28,3 +28,7 @@ sudo apt update && sudo apt install github-desktop
 echo "I installed git"
 
 echo "I will install tensorflow"
+sudo apt-get install python3-pip
+pip install --upgrade pip
+pip install tensorflow
+echo "I installed tensorflow"
