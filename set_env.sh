@@ -15,4 +15,8 @@ sudo apt-get upgrade
 sudo apt-get install ros-humble-desktop
 echo "I installed ROS2 humble"
 
-echo "I will install pip"
+echo "I will install pip3"
+sudo apt-get install python3-pip
+echo "I installed pip3"
+
+echo "I will install tensorflow"
