@@ -1,4 +1,3 @@
-
 echo "I will install Ros2 humble"
 sudo apt-get install software-properties-common
 sudo add-apt-repository universe
